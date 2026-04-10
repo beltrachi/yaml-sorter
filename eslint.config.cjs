@@ -2,7 +2,7 @@ const globals = require("globals");
 
 module.exports = [
   {
-    ignores: ["eslint.config.cjs"],
+    ignores: ["eslint.config.cjs", ".vscode-test/"],
   },
   {
     languageOptions: {
